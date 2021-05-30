@@ -43,7 +43,7 @@ CREATE TABLE IF NOT EXISTS `admin` (
 --
 
 INSERT INTO `admin` (`id`, `firstName`, `lastName`, `email`, `mobile`, `address`, `password`, `type`, `confirmCode`) VALUES
-(3, 'Borsha', 'Tasnim', 'borsha@gmail.com', '01678293748', 'Dhaka, Bangladesh', 'aa030295ae26e8acbd3d1c9415a60f12', 'manager', '117631');
+(3, 'sitesh', 'bade', 'sitesh.bade@outlook.com', '7057349971', 'Satara, India', 'root1234', 'manager', '1234');
 
 -- --------------------------------------------------------
 
@@ -170,9 +170,9 @@ CREATE TABLE IF NOT EXISTS `user` (
 --
 
 INSERT INTO `user` (`id`, `firstName`, `lastName`, `email`, `mobile`, `address`, `password`, `confirmCode`, `activation`) VALUES
-(9, 'Borsha', 'Tanjina', 'Tanjina@gmail.com', '01578399283', 'Dhaka, Bangladesh', 'aa030295ae26e8acbd3d1c9415a60f12', '217576', 'yes'),
-(10, 'Trisha', 'Rehman', 'trisha@gmail.com', '01923457834', 'Mirpur 2, Dhaka', '5af7a513a7c48f6cc97253254b29509b', '0', 'yes'),
-(11, 'Akhi', 'Alam', 'akhi@gmail.com', '01678293748', 'Saver, Dhaka', 'ca52febd8be7c4480ae90cdae8438a03', '0', 'yes');
+(9, 'raghav', 'bade', 'raghav@gmail.com', '7709223014', 'Pune, India', 'root1234', '1234', 'yes'),
+(10, 'William', 'John', 'wj@gmail.com', '01923457834', 'Pune 2, India', '5af7a513a7c48f6cc97253254b29509b', '0', 'yes'),
+(11, 'Ashish', 'Rathod', 'ar@gmail.com', '01678293748', 'Pune, India', 'ca52febd8be7c4480ae90cdae8438a03', '0', 'yes');
 
 --
 -- Indexes for dumped tables
